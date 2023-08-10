@@ -47,8 +47,6 @@ frame.place(x=480, y=50)
 heading=Label(frame, text='Sign Up', fg="#57a1f8", bg='white', font=('Microsoft Yahei UI Light', 23, 'bold'))
 heading.place(x=100, y=5)
 
-############################################################
-
 def on_enter(e):
     user.delete(0, 'end')
 def on_leave(e):
@@ -63,8 +61,6 @@ user.bind("<FocusIn>", on_enter)
 user.bind("<FocusOut>", on_leave)
 
 Frame(frame, width=295, height=2, bg='black').place(x=25, y=107)
-
-############################################################
 
 def on_enter(e):
     code.delete(0, 'end')
@@ -81,8 +77,6 @@ code.bind("<FocusOut>", on_leave)
 
 Frame(frame, width=295, height=2, bg='black').place(x=25, y=177)
 
-############################################################
-
 def on_enter(e):
     confirm_code.delete(0, 'end')
 def on_leave(e):
@@ -97,8 +91,6 @@ confirm_code.bind("<FocusIn>", on_enter)
 confirm_code.bind("<FocusOut>", on_leave)
 
 Frame(frame, width=295, height=2, bg='black').place(x=25, y=247)
-
-############################################################
 
 Button(frame, width=39, pady=7, text='Sign up', bg='#57a1f8', fg='white', border=0, command=signup).place(x=35, y=280)
 label=Label(frame, text='I have an account', fg='black', bg='white', font=('Microsoft Yahei UI Light', 9))
