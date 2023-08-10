@@ -1,7 +1,7 @@
 # Authentication Form
 This is an Authentication Form written in Python that allows you to login and register within the app.
 
-  ![Sign In Screenshot](![SignInScreenshot](https://github.com/JheyluisReyes/GraphicalUI/assets/141370176/ed46654f-c81d-4bc4-a272-2d940a74effa))
+  ![SignInScreenshot](https://github.com/JheyluisReyes/GraphicalUI/assets/141370176/ed46654f-c81d-4bc4-a272-2d940a74effa)
 
 ## Built with
 - Python 3.11.4
